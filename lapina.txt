@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+        <head>
+              <title>ASR Simple Webpage</title>
+        </head>
+<style>
+        *{
+               margin: 0;
+               padding: 0;
+               box-sizing: border-box;
+               font-family: sans-serif;
+               font-weight: lighter;
+          }
+          body{
+               background: url(Signal.jpg);
+               baclground-size: cover;
+          }
+          .flex{
+               display: flex;
+               align-items: center;
+          }
+          .container1{
+               width: 100%;
+               height:60px;
+               color: lightblue;
+               background: rgb(0,0,0);
+          }
+          nav{
+               margin: 0 30px;
+          }
+          ul{
+               list-style: none;
+               margin: 20px;
+               font-size: 20px;
+          }
+          li
+            {
+               margin: 0 10px;
+               cursor: poniter;
+          }
+          .inp{
+               position: absolute;
+               right: 5px;
+          }
+          .input{
+               height: 45px;
+               boarder-radius: 5px
+               font-size: 17px;
+          }
+          .text{
+               padding-left: 20px;
+               margin-right: 5px;
+               outline: 1px solid blue;
+          }
+          .submit{
+               width: 100px;
+               margin-right: 50px;
+               background: black;
+               color: green;
+               border: 1px solid green;
+          }
+           .container2{
+               position: absolute;
+               top: 50%;
+               left:50%;
+               transfrom: translate(-50%, -50%);
+          }
+           .login-button{
+               text-decoration: none;
+               padding: 10px;
+               font-size: 35px;
+               margin: 20px;
+               border-radius: 10px;
+          }
+           .login{
+               color: white:
+               background: rgba(0,128,0,0.85)
+          }
+           .register{
+               color: black;
+               background: rgba(0,183,255,0.85);
+</style>
+
+<body>
+        <div class = "container1 flex">
+               <nav class ="flex">
+                     <h1>ASR</h1>
+                     <ul>
+                         <li>Home</li>
+                         <li>About us</li>
+                         <li>Contact us</li>
+                     </ul>
+                     </div class ="inp">
+                         <input type = "text placeholder = "Search" class = "input text">
+                         <input type = "submit" value ="Search" class = "input submit">
+                     </div>
+                </nav>
+         </div>
+         <div class = "container2"></div>
+                <a href = "#" class = "log-buttton login">LOGIN</a>
+                <a href = "#" class = "log-button  register">REGISTER</a>
+
+<br
+<hr>
+<h1><marquee><b>Motto of the Army Signal Regiment</b></marquee></h1>
+<p>The motto of the Signal Corps is "Swift and Sure", but
+   it takes a lot of keeping up to when the snow falls so
+   heavily that it breaks the communication cable.</p>
+<p><center></center></p>
+<a
+href="www.youtube.com/watch?v=8jlHYS5DqVY">youtube</a>
+<body bgcolor="lightblue">
+</body>
+<p><font color="yellow"></font></P>
+</html>
